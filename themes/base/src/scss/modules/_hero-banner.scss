@@ -1,0 +1,26 @@
+
+
+
+.m-hero-banner-block {
+
+  &:after {
+    content: '';
+    display: block;
+  }
+
+  &.-small{
+    &:after{}
+  }
+  &.-med{
+    &:after{
+      padding-bottom: 25%;
+    }
+  }
+  &.-large{
+    &:after{}
+
+  }
+
+  @include mq($m) {
+  }
+}

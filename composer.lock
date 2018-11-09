@@ -1,0 +1,2732 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "96a8420f10b04251e0271e3d74755ec3",
+    "packages": [
+        {
+            "name": "briceburg/silverstripe-pickerfield",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/briceburg/silverstripe-pickerfield.git",
+                "reference": "06fa30c2d5da7383d2aa9b4f62efaceecd8d370a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/briceburg/silverstripe-pickerfield/zipball/06fa30c2d5da7383d2aa9b4f62efaceecd8d370a",
+                "reference": "06fa30c2d5da7383d2aa9b4f62efaceecd8d370a",
+                "shasum": ""
+            },
+            "require": {
+                "silverstripe-australia/gridfieldextensions": "*",
+                "silverstripe/framework": "~3.0"
+            },
+            "type": "silverstripe-module",
+            "extra": {
+                "installer-name": "pickerfield",
+                "screenshots": [
+                    "docs/screenshots/pickerfield.png",
+                    "docs/screenshots/add-existing-search.png"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Brice Burgess",
+                    "email": "brice@digome.com"
+                }
+            ],
+            "description": "GridField based management of has_one , has_many , and many_many relationship selection",
+            "homepage": "https://github.com/briceburg/silverstripe-pickerfield",
+            "keywords": [
+                "gridfield",
+                "has_one",
+                "silverstripe"
+            ],
+            "time": "2017-03-29T17:03:49+00:00"
+        },
+        {
+            "name": "bummzack/sortablefile",
+            "version": "1.2.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/bummzack/sortablefile.git",
+                "reference": "3b601d30ec0a2e3654ce7fb37ffa557159952b2f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/bummzack/sortablefile/zipball/3b601d30ec0a2e3654ce7fb37ffa557159952b2f",
+                "reference": "3b601d30ec0a2e3654ce7fb37ffa557159952b2f",
+                "shasum": ""
+            },
+            "require": {
+                "silverstripe/framework": "~3.1"
+            },
+            "type": "silverstripe-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.x-dev"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "bummzack"
+                }
+            ],
+            "description": "An extension for SilverStripe 3.1 that allows sorting of multiple attached images (extends UploadField).",
+            "keywords": [
+                "cms",
+                "silverstripe",
+                "sortable"
+            ],
+            "time": "2016-02-03T13:42:16+00:00"
+        },
+        {
+            "name": "burnbright/silverstripe-externalurlfield",
+            "version": "0.3.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/burnbright/silverstripe-externalurlfield.git",
+                "reference": "665f10e63042a06f1f88bf0cce743343b8b683f1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/burnbright/silverstripe-externalurlfield/zipball/665f10e63042a06f1f88bf0cce743343b8b683f1",
+                "reference": "665f10e63042a06f1f88bf0cce743343b8b683f1",
+                "shasum": ""
+            },
+            "require": {
+                "jakeasmith/http_build_url": "*@stable",
+                "silverstripe/framework": "^3"
+            },
+            "type": "silverstripe-module",
+            "extra": {
+                "installer-name": "externalurlfield"
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jeremy Shipman",
+                    "homepage": "https://github.com/jedateach",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Provides SilverStripe with a DBField and FormField for handling external URLs.",
+            "keywords": [
+                "field",
+                "form",
+                "link",
+                "silverstripe",
+                "url"
+            ],
+            "time": "2016-09-12T09:40:44+00:00"
+        },
+        {
+            "name": "colymba/gridfield-bulk-editing-tools",
+            "version": "v2.1.10",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/colymba/GridFieldBulkEditingTools.git",
+                "reference": "81a524310dc9111d7ac601d4cb5ad898a8037625"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/colymba/GridFieldBulkEditingTools/zipball/81a524310dc9111d7ac601d4cb5ad898a8037625",
+                "reference": "81a524310dc9111d7ac601d4cb5ad898a8037625",
+                "shasum": ""
+            },
+            "require": {
+                "silverstripe/framework": ">=3.1"
+            },
+            "type": "silverstripe-module",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD Simplified"
+            ],
+            "authors": [
+                {
+                    "name": "Thierry Francois",
+                    "homepage": "http://colymba.com"
+                },
+                {
+                    "name": "GitHub contributors",
+                    "homepage": "https://github.com/colymba/GridFieldBulkEditingTools/contributors"
+                }
+            ],
+            "description": "SilverStripe 3 GridField component to upload images and edit records in bulk",
+            "homepage": "https://github.com/colymba/GridFieldBulkEditingTools",
+            "keywords": [
+                "Image upload",
+                "bulk upload",
+                "gridfield bulk upload",
+                "silverstripe"
+            ],
+            "time": "2017-07-03T06:19:42+00:00"
+        },
+        {
+            "name": "composer/installers",
+            "version": "v1.6.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/composer/installers.git",
+                "reference": "cfcca6b1b60bc4974324efb5783c13dca6932b5b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/composer/installers/zipball/cfcca6b1b60bc4974324efb5783c13dca6932b5b",
+                "reference": "cfcca6b1b60bc4974324efb5783c13dca6932b5b",
+                "shasum": ""
+            },
+            "require": {
+                "composer-plugin-api": "^1.0"
+            },
+            "replace": {
+                "roundcube/plugin-installer": "*",
+                "shama/baton": "*"
+            },
+            "require-dev": {
+                "composer/composer": "1.0.*@dev",
+                "phpunit/phpunit": "^4.8.36"
+            },
+            "type": "composer-plugin",
+            "extra": {
+                "class": "Composer\\Installers\\Plugin",
+                "branch-alias": {
+                    "dev-master": "1.0-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Composer\\Installers\\": "src/Composer/Installers"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Kyle Robinson Young",
+                    "email": "kyle@dontkry.com",
+                    "homepage": "https://github.com/shama"
+                }
+            ],
+            "description": "A multi-framework Composer library installer",
+            "homepage": "https://composer.github.io/installers/",
+            "keywords": [
+                "Craft",
+                "Dolibarr",
+                "Eliasis",
+                "Hurad",
+                "ImageCMS",
+                "Kanboard",
+                "Lan Management System",
+                "MODX Evo",
+                "Mautic",
+                "Maya",
+                "OXID",
+                "Plentymarkets",
+                "Porto",
+                "RadPHP",
+                "SMF",
+                "Thelia",
+                "WolfCMS",
+                "agl",
+                "aimeos",
+                "annotatecms",
+                "attogram",
+                "bitrix",
+                "cakephp",
+                "chef",
+                "cockpit",
+                "codeigniter",
+                "concrete5",
+                "croogo",
+                "dokuwiki",
+                "drupal",
+                "eZ Platform",
+                "elgg",
+                "expressionengine",
+                "fuelphp",
+                "grav",
+                "installer",
+                "itop",
+                "joomla",
+                "kohana",
+                "laravel",
+                "lavalite",
+                "lithium",
+                "magento",
+                "majima",
+                "mako",
+                "mediawiki",
+                "modulework",
+                "modx",
+                "moodle",
+                "osclass",
+                "phpbb",
+                "piwik",
+                "ppi",
+                "puppet",
+                "pxcms",
+                "reindex",
+                "roundcube",
+                "shopware",
+                "silverstripe",
+                "sydes",
+                "symfony",
+                "typo3",
+                "wordpress",
+                "yawik",
+                "zend",
+                "zikula"
+            ],
+            "time": "2018-08-27T06:10:37+00:00"
+        },
+        {
+            "name": "gdmedia/ss-auto-git-ignore",
+            "version": "1.0.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/guru-digital/SSAutoGitIgnore.git",
+                "reference": "0fd761b18305aa5c8aa35117d5b5b58cc006815d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/guru-digital/SSAutoGitIgnore/zipball/0fd761b18305aa5c8aa35117d5b5b58cc006815d",
+                "reference": "0fd761b18305aa5c8aa35117d5b5b58cc006815d",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "GDM\\": "./"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "Corey Sewell",
+                    "email": "corey@gurudigal.nz"
+                }
+            ],
+            "description": "A Composer post-update-cmd script to automatically add Composer managed SilverStripe modules and themes to .gitignore",
+            "time": "2016-07-27T19:24:49+00:00"
+        },
+        {
+            "name": "jakeasmith/http_build_url",
+            "version": "1.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/jakeasmith/http_build_url.git",
+                "reference": "93c273e77cb1edead0cf8bcf8cd2003428e74e37"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/jakeasmith/http_build_url/zipball/93c273e77cb1edead0cf8bcf8cd2003428e74e37",
+                "reference": "93c273e77cb1edead0cf8bcf8cd2003428e74e37",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "src/http_build_url.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jake A. Smith",
+                    "email": "theman@jakeasmith.com"
+                }
+            ],
+            "description": "Provides functionality for http_build_url() to environments without pecl_http.",
+            "time": "2017-05-01T15:36:40+00:00"
+        },
+        {
+            "name": "jonom/silverstripe-betternavigator",
+            "version": "3.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/jonom/silverstripe-betternavigator.git",
+                "reference": "63f16e40545c8d7d0c84548dd1b799cd1a271518"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/jonom/silverstripe-betternavigator/zipball/63f16e40545c8d7d0c84548dd1b799cd1a271518",
+                "reference": "63f16e40545c8d7d0c84548dd1b799cd1a271518",
+                "shasum": ""
+            },
+            "require": {
+                "silverstripe/framework": "~3.1"
+            },
+            "type": "silverstripe-module",
+            "extra": {
+                "installer-name": "betternavigator"
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Jonathon Menz",
+                    "homepage": "http://jonathonmenz.com"
+                }
+            ],
+            "description": "Front-end utility menu for SilverStripe websites featuring administration and development tools",
+            "keywords": [
+                "BetterNavigator",
+                "SilverStripeNavigator",
+                "navigator",
+                "silverstripe"
+            ],
+            "time": "2017-03-22T23:39:21+00:00"
+        },
+        {
+            "name": "kinglozzer/metatitle",
+            "version": "1.0.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/kinglozzer/silverstripe-metatitle.git",
+                "reference": "530d3c55469f159c73d1431c736b945fbdad4aeb"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/kinglozzer/silverstripe-metatitle/zipball/530d3c55469f159c73d1431c736b945fbdad4aeb",
+                "reference": "530d3c55469f159c73d1431c736b945fbdad4aeb",
+                "shasum": ""
+            },
+            "require": {
+                "silverstripe/cms": "~3.1",
+                "silverstripe/framework": "~3.1"
+            },
+            "type": "silverstripe-module",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Loz Calver",
+                    "email": "lozcalver@bigfork.co.uk"
+                }
+            ],
+            "description": "Re-adds the 'MetaTitle' field for SilverStripe 3.1",
+            "homepage": "https://github.com/kinglozzer/silverstripe-metatitle",
+            "keywords": [
+                "meta",
+                "metatitle",
+                "silverstripe",
+                "title"
+            ],
+            "time": "2015-01-09T14:02:28+00:00"
+        },
+        {
+            "name": "mustangostang/spyc",
+            "version": "0.6.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/mustangostang/spyc.git",
+                "reference": "23c35ae854d835f2d7bcc3e3ad743d7e57a8c14d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mustangostang/spyc/zipball/23c35ae854d835f2d7bcc3e3ad743d7e57a8c14d",
+                "reference": "23c35ae854d835f2d7bcc3e3ad743d7e57a8c14d",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.1"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "4.3.*@dev"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "0.5.x-dev"
+                }
+            },
+            "autoload": {
+                "files": [
+                    "Spyc.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "mustangostang",
+                    "email": "vlad.andersen@gmail.com"
+                }
+            ],
+            "description": "A simple YAML loader/dumper class for PHP",
+            "homepage": "https://github.com/mustangostang/spyc/",
+            "keywords": [
+                "spyc",
+                "yaml",
+                "yml"
+            ],
+            "time": "2017-02-24T16:06:33+00:00"
+        },
+        {
+            "name": "sheadawson/silverstripe-blocks",
+            "version": "1.1.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sheadawson/silverstripe-blocks.git",
+                "reference": "40617e4f965c806c0f178e13d11c91e66be7c0f7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sheadawson/silverstripe-blocks/zipball/40617e4f965c806c0f178e13d11c91e66be7c0f7",
+                "reference": "40617e4f965c806c0f178e13d11c91e66be7c0f7",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "*",
+                "silverstripe-australia/gridfieldextensions": "~1.0",
+                "silverstripe/cms": "~3.1",
+                "silverstripe/framework": "~3.1",
+                "silverstripe/multivaluefield": "~2.0",
+                "unclecheese/betterbuttons": "~1.2"
+            },
+            "suggest": {
+                "micschk/silverstripe-gridfieldsitetreebuttons": "Edit pages directly from a Block's 'used on page' list",
+                "unisolutions/silverstripe-copybutton": "Duplicate Blocks in Block Admin"
+            },
+            "type": "silverstripe-module",
+            "extra": {
+                "installer-name": "blocks"
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "Shea Dawson",
+                    "email": "shea@silverstripe.com.au"
+                }
+            ],
+            "description": "An alternative to the SilverStripe Widgets module.",
+            "homepage": "http://github.com/sheadawson/silverstripe-blocks",
+            "keywords": [
+                "blocks",
+                "silverstripe",
+                "widgets"
+            ],
+            "time": "2016-11-08T22:48:10+00:00"
+        },
+        {
+            "name": "silverstripe-australia/gridfieldextensions",
+            "version": "1.4.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symbiote/silverstripe-gridfieldextensions.git",
+                "reference": "755cafa75450e6f651fc423d2e7ce8842a1367ba"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symbiote/silverstripe-gridfieldextensions/zipball/755cafa75450e6f651fc423d2e7ce8842a1367ba",
+                "reference": "755cafa75450e6f651fc423d2e7ce8842a1367ba",
+                "shasum": ""
+            },
+            "require": {
+                "silverstripe/framework": "~3.1"
+            },
+            "replace": {
+                "ajshort/silverstripe-gridfieldextensions": "self.version"
+            },
+            "type": "silverstripe-module",
+            "extra": {
+                "installer-name": "gridfieldextensions",
+                "branch-alias": {
+                    "dev-master": "1.4.x-dev"
+                },
+                "screenshots": [
+                    "docs/en/_images/editable-rows.png",
+                    "docs/en/_images/add-existing-search.png"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Marcus Nyeholt",
+                    "email": "marcus@silverstripe.com.au"
+                },
+                {
+                    "name": "Andrew Short",
+                    "email": "andrewjshort@gmail.com"
+                }
+            ],
+            "description": "A collection of useful grid field components",
+            "homepage": "http://github.com/silverstripe-australia/silverstripe-gridfieldextensions",
+            "keywords": [
+                "gridfield",
+                "silverstripe"
+            ],
+            "abandoned": "symbiote/silverstripe-gridfieldextensions",
+            "time": "2017-07-01T13:28:41+00:00"
+        },
+        {
+            "name": "silverstripe-themes/simple",
+            "version": "3.1.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/silverstripe-themes/silverstripe-simple.git",
+                "reference": "9518f430b306ae5ba0a3183d157846b75e093e61"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/silverstripe-themes/silverstripe-simple/zipball/9518f430b306ae5ba0a3183d157846b75e093e61",
+                "reference": "9518f430b306ae5ba0a3183d157846b75e093e61",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "*",
+                "silverstripe/framework": ">=3.0"
+            },
+            "type": "silverstripe-theme",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Sara Tušar (Innovaif)",
+                    "homepage": "http://www.saratusar.com"
+                }
+            ],
+            "description": "The SilverStripe simple theme (default SilverStripe 3 theme)",
+            "keywords": [
+                "silverstripe",
+                "theme"
+            ],
+            "time": "2018-01-11T21:46:13+00:00"
+        },
+        {
+            "name": "silverstripe/blog",
+            "version": "2.5.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/silverstripe/silverstripe-blog.git",
+                "reference": "0a8235615d6f9d4035ca1dc53515a5ed01abeb3e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/silverstripe/silverstripe-blog/zipball/0a8235615d6f9d4035ca1dc53515a5ed01abeb3e",
+                "reference": "0a8235615d6f9d4035ca1dc53515a5ed01abeb3e",
+                "shasum": ""
+            },
+            "require": {
+                "silverstripe/cms": "^3.2.0",
+                "silverstripe/lumberjack": "~1.1",
+                "silverstripe/tagfield": "^1.0"
+            },
+            "replace": {
+                "micmania1/silverstripe-blog": "*"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~3.7@stable"
+            },
+            "suggest": {
+                "silverstripe/comments": "This module adds comments to your blog.",
+                "silverstripe/widgets": "Some widgets come with the blog which are compatible with the widgets module."
+            },
+            "type": "silverstripe-module",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-2-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Michael Strong",
+                    "email": "github@michaelstrong.co.uk"
+                }
+            ],
+            "description": "A fresh take on blogging in Silverstripe set out to tackle the issue of a cluttered Site Tree.",
+            "keywords": [
+                "blog",
+                "news",
+                "silverstripe"
+            ],
+            "time": "2018-06-24T23:32:15+00:00"
+        },
+        {
+            "name": "silverstripe/cms",
+            "version": "3.7.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/silverstripe/silverstripe-cms.git",
+                "reference": "7052170e89799051344d45fd8b851bd004e0bd03"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/silverstripe/silverstripe-cms/zipball/7052170e89799051344d45fd8b851bd004e0bd03",
+                "reference": "7052170e89799051344d45fd8b851bd004e0bd03",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "*",
+                "php": ">=5.3.3",
+                "silverstripe/framework": "~3.4",
+                "silverstripe/reports": "~3.4",
+                "silverstripe/siteconfig": "~3.4"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^3 || ^4 || ^5"
+            },
+            "type": "silverstripe-module",
+            "autoload": {
+                "classmap": [
+                    "tests/behat/",
+                    "code"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "SilverStripe",
+                    "homepage": "http://silverstripe.com"
+                },
+                {
+                    "name": "The SilverStripe Community",
+                    "homepage": "http://silverstripe.org"
+                }
+            ],
+            "description": "The SilverStripe Content Management System",
+            "homepage": "http://silverstripe.org",
+            "keywords": [
+                "cms",
+                "silverstripe"
+            ],
+            "time": "2018-06-11T22:50:03+00:00"
+        },
+        {
+            "name": "silverstripe/framework",
+            "version": "3.7.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/silverstripe/silverstripe-framework.git",
+                "reference": "d096a37f32af97b2d7c6a71fff36e21767a302d3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/silverstripe/silverstripe-framework/zipball/d096a37f32af97b2d7c6a71fff36e21767a302d3",
+                "reference": "d096a37f32af97b2d7c6a71fff36e21767a302d3",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "~1.0",
+                "mustangostang/spyc": "^0.6.2",
+                "php": "^5.3.3 || ^7"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^3 || ^4 || ^5"
+            },
+            "type": "silverstripe-module",
+            "autoload": {
+                "psr-0": {
+                    "SilverStripe\\": "src/",
+                    "Zend_": "thirdparty/Zend/"
+                },
+                "classmap": [
+                    "tests/behat/features/bootstrap",
+                    "admin/code",
+                    "api",
+                    "cache",
+                    "cli",
+                    "control",
+                    "core",
+                    "dev",
+                    "email",
+                    "filesystem",
+                    "forms",
+                    "i18n",
+                    "model",
+                    "oembed",
+                    "parsers",
+                    "search",
+                    "security",
+                    "tasks",
+                    "view",
+                    "thirdparty/php-peg",
+                    "thirdparty/simpletest",
+                    "thirdparty/zend_translate_railsyaml"
+                ],
+                "exclude-from-classmap": [
+                    "view/SSTemplateParser.php.inc",
+                    "dev/phpunit/PhpUnitWrapper.php",
+                    "model/fieldtypes/compat",
+                    "core/compat"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "SilverStripe",
+                    "homepage": "http://silverstripe.com"
+                },
+                {
+                    "name": "The SilverStripe Community",
+                    "homepage": "http://silverstripe.org"
+                }
+            ],
+            "description": "The SilverStripe framework",
+            "homepage": "http://silverstripe.org",
+            "keywords": [
+                "framework",
+                "silverstripe"
+            ],
+            "time": "2018-07-17T16:53:27+00:00"
+        },
+        {
+            "name": "silverstripe/googlesitemaps",
+            "version": "1.6.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/wilr/silverstripe-googlesitemaps.git",
+                "reference": "446140cfbc93a9fa9ee7ee8919de1e25fd589e0e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/wilr/silverstripe-googlesitemaps/zipball/446140cfbc93a9fa9ee7ee8919de1e25fd589e0e",
+                "reference": "446140cfbc93a9fa9ee7ee8919de1e25fd589e0e",
+                "shasum": ""
+            },
+            "require": {
+                "silverstripe/framework": "~3.1"
+            },
+            "type": "silverstripe-module",
+            "extra": {
+                "installer-name": "googlesitemaps"
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Will Rossiter",
+                    "email": "will@fullscreen.io"
+                }
+            ],
+            "description": "SilverStripe support for the Google Sitemaps XML, enabling Google and other search engines to see all urls on your site. This helps your SilverStripe website rank well in search engines, and to encourage the information on your site to be discovered quickly.",
+            "homepage": "https://github.com/wilr/silverstripe-googlesitemaps",
+            "keywords": [
+                "googlesitemaps",
+                "seo",
+                "silverstripe"
+            ],
+            "time": "2018-07-16T04:59:21+00:00"
+        },
+        {
+            "name": "silverstripe/lumberjack",
+            "version": "1.3.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/silverstripe/silverstripe-lumberjack.git",
+                "reference": "4b8ab2675a25299d6e26ace4c7d81be4bcbcd93c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/silverstripe/silverstripe-lumberjack/zipball/4b8ab2675a25299d6e26ace4c7d81be4bcbcd93c",
+                "reference": "4b8ab2675a25299d6e26ace4c7d81be4bcbcd93c",
+                "shasum": ""
+            },
+            "require": {
+                "silverstripe/cms": "^3.1",
+                "silverstripe/framework": "^3.1"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~3.7@stable"
+            },
+            "type": "silverstripe-module",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-2-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Michael Strong",
+                    "email": "mstrong@silverstripe.org"
+                }
+            ],
+            "description": "A module to make managing pages in a GridField easy without losing any of the functionality that you're used to in the CMS.",
+            "time": "2017-10-02T20:25:50+00:00"
+        },
+        {
+            "name": "silverstripe/multivaluefield",
+            "version": "2.4.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symbiote/silverstripe-multivaluefield.git",
+                "reference": "81b0a152ae022cfcd323cc0a274e588376d12940"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symbiote/silverstripe-multivaluefield/zipball/81b0a152ae022cfcd323cc0a274e588376d12940",
+                "reference": "81b0a152ae022cfcd323cc0a274e588376d12940",
+                "shasum": ""
+            },
+            "require": {
+                "silverstripe/framework": "~3.1"
+            },
+            "type": "silverstripe-module",
+            "extra": {
+                "installer-name": "multivaluefield"
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Marcus Nyeholt",
+                    "email": "marcus@silverstripe.com.au"
+                }
+            ],
+            "description": "A DB field + form fields for storing multiple values in a single property (serialized).",
+            "keywords": [
+                "dbfield",
+                "formfield",
+                "silverstripe"
+            ],
+            "abandoned": "symbiote/silverstripe-multivaluefield",
+            "time": "2017-06-30T08:04:01+00:00"
+        },
+        {
+            "name": "silverstripe/reports",
+            "version": "3.7.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/silverstripe/silverstripe-reports.git",
+                "reference": "94eace4f456342076e103853ad31ffb540160f0c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/silverstripe/silverstripe-reports/zipball/94eace4f456342076e103853ad31ffb540160f0c",
+                "reference": "94eace4f456342076e103853ad31ffb540160f0c",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^5.3.3 || ^7",
+                "silverstripe/framework": "~3.3"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^3 || ^4 || ^5"
+            },
+            "type": "silverstripe-module",
+            "autoload": {
+                "classmap": [
+                    "code"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "SilverStripe",
+                    "homepage": "http://silverstripe.com"
+                },
+                {
+                    "name": "The SilverStripe Community",
+                    "homepage": "http://silverstripe.org"
+                }
+            ],
+            "description": "Reports module for SilverStripe CMS",
+            "homepage": "http://silverstripe.org",
+            "keywords": [
+                "cms",
+                "reports",
+                "silverstripe"
+            ],
+            "time": "2018-06-08T00:19:36+00:00"
+        },
+        {
+            "name": "silverstripe/secureassets",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/silverstripe/silverstripe-secureassets.git",
+                "reference": "df0466c08b49566efb1a382bd9ae119789c6ed69"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/silverstripe/silverstripe-secureassets/zipball/df0466c08b49566efb1a382bd9ae119789c6ed69",
+                "reference": "df0466c08b49566efb1a382bd9ae119789c6ed69",
+                "shasum": ""
+            },
+            "require": {
+                "silverstripe/framework": "^3.3"
+            },
+            "suggest": {
+                "silverstripe/cms": "Allows you to easily edit file permissions in the CMS"
+            },
+            "type": "silverstripe-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.x-dev"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Sean Harvey",
+                    "email": "sean@silverstripe.com"
+                }
+            ],
+            "description": "Adds access restrictions to folders in assets, similar to the way you secure pages",
+            "homepage": "http://silverstripe.org",
+            "keywords": [
+                "assets",
+                "files",
+                "secure",
+                "silverstripe"
+            ],
+            "time": "2018-10-23T21:56:04+00:00"
+        },
+        {
+            "name": "silverstripe/segment-field",
+            "version": "1.0.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/silverstripe/silverstripe-segment-field.git",
+                "reference": "0b1445307bac488ddc35d624564f4300e8080029"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/silverstripe/silverstripe-segment-field/zipball/0b1445307bac488ddc35d624564f4300e8080029",
+                "reference": "0b1445307bac488ddc35d624564f4300e8080029",
+                "shasum": ""
+            },
+            "require": {
+                "silverstripe/cms": "^3.1",
+                "silverstripe/framework": "^3.1"
+            },
+            "require-dev": {
+                "mockery/mockery": "^0.9",
+                "phpunit/phpunit": "^3.7"
+            },
+            "type": "silverstripe-module",
+            "autoload": {
+                "psr-4": {
+                    "SilverStripe\\Forms\\": "code"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "A reusable approach to segment-generating fields",
+            "keywords": [
+                "segment",
+                "silverstripe"
+            ],
+            "time": "2015-08-18T04:44:43+00:00"
+        },
+        {
+            "name": "silverstripe/siteconfig",
+            "version": "3.7.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/silverstripe/silverstripe-siteconfig.git",
+                "reference": "b753b732801f8adbff4670b2893762e3c5a99ea0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/silverstripe/silverstripe-siteconfig/zipball/b753b732801f8adbff4670b2893762e3c5a99ea0",
+                "reference": "b753b732801f8adbff4670b2893762e3c5a99ea0",
+                "shasum": ""
+            },
+            "require": {
+                "silverstripe/framework": "*"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^3 || ^4 || ^5"
+            },
+            "type": "silverstripe-module",
+            "extra": {
+                "installer-name": "siteconfig"
+            },
+            "autoload": {
+                "classmap": [
+                    "code"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "Will Rossiter",
+                    "email": "will@fullscreen.io"
+                }
+            ],
+            "description": "Site wide settings administration.",
+            "keywords": [
+                "silverstripe",
+                "siteconfig"
+            ],
+            "time": "2018-06-08T00:19:37+00:00"
+        },
+        {
+            "name": "silverstripe/tagfield",
+            "version": "1.3.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/silverstripe/silverstripe-tagfield.git",
+                "reference": "00c950eecf07ec279240445a450fd10caa52a31f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/silverstripe/silverstripe-tagfield/zipball/00c950eecf07ec279240445a450fd10caa52a31f",
+                "reference": "00c950eecf07ec279240445a450fd10caa52a31f",
+                "shasum": ""
+            },
+            "require": {
+                "silverstripe/framework": "~3.1"
+            },
+            "type": "silverstripe-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.3.x-dev"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Christopher Pitt",
+                    "email": "chris@silverstripe.com",
+                    "homepage": "http://github.com/assertchris"
+                }
+            ],
+            "description": "Tag field for Silverstripe",
+            "keywords": [
+                "field",
+                "silverstripe",
+                "tag"
+            ],
+            "time": "2016-08-22T09:56:00+00:00"
+        },
+        {
+            "name": "silverstripe/userforms",
+            "version": "3.1.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/silverstripe/silverstripe-userforms.git",
+                "reference": "0ce8b95546f234bc2e1d2727d0816ccb9017e305"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/silverstripe/silverstripe-userforms/zipball/0ce8b95546f234bc2e1d2727d0816ccb9017e305",
+                "reference": "0ce8b95546f234bc2e1d2727d0816ccb9017e305",
+                "shasum": ""
+            },
+            "require": {
+                "silverstripe-australia/gridfieldextensions": "~1.1",
+                "silverstripe/cms": "~3.1",
+                "silverstripe/framework": "~3.1",
+                "silverstripe/segment-field": "^1.0"
+            },
+            "suggest": {
+                "colymba/gridfield-bulk-editing-tools": "Allows for bulk management of form submissions",
+                "silverstripe/secureassets": "Enables files uploaded via userforms to be secured from public access"
+            },
+            "type": "silverstripe-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "3.1.x-dev"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "David Craig",
+                    "email": "david@silverstripe.com"
+                },
+                {
+                    "name": "Damian Mooyman",
+                    "email": "damian@silverstripe.com"
+                },
+                {
+                    "name": "Will Rossiter",
+                    "email": "will@fullscreen.io"
+                },
+                {
+                    "name": "Christopher Pitt",
+                    "email": "chris@silverstripe.com"
+                },
+                {
+                    "name": "Scott Hutchinson",
+                    "email": "scott@silverstripe.com"
+                }
+            ],
+            "description": "UserForms enables CMS users to create dynamic forms via a drag and drop interface and without getting involved in any PHP code",
+            "keywords": [
+                "silverstripe",
+                "userforms"
+            ],
+            "time": "2018-02-21T00:52:51+00:00"
+        },
+        {
+            "name": "silverstripe/widgets",
+            "version": "1.3.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/silverstripe/silverstripe-widgets.git",
+                "reference": "4dccc49a4190444e8273ce7515b069e236a97c35"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/silverstripe/silverstripe-widgets/zipball/4dccc49a4190444e8273ce7515b069e236a97c35",
+                "reference": "4dccc49a4190444e8273ce7515b069e236a97c35",
+                "shasum": ""
+            },
+            "require": {
+                "silverstripe/cms": "^3.2",
+                "silverstripe/framework": "^3.2"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~3.7@stable"
+            },
+            "type": "silverstripe-module",
+            "extra": {
+                "branch-alias": []
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Ingo Schommer",
+                    "email": "ingo@silverstripe.com"
+                }
+            ],
+            "description": "Widgets are small pieces of functionality such as showing the latest Comments or Flickr Photos. They normally display on the sidebar of your website.",
+            "keywords": [
+                "blog",
+                "silverstripe",
+                "widgets"
+            ],
+            "time": "2017-12-18T21:18:34+00:00"
+        },
+        {
+            "name": "unclecheese/betterbuttons",
+            "version": "1.3.14",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/unclecheese/silverstripe-gridfield-betterbuttons.git",
+                "reference": "71f9653f51420ca07a33024bd8fe4396ee532bdb"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/unclecheese/silverstripe-gridfield-betterbuttons/zipball/71f9653f51420ca07a33024bd8fe4396ee532bdb",
+                "reference": "71f9653f51420ca07a33024bd8fe4396ee532bdb",
+                "shasum": ""
+            },
+            "require": {
+                "silverstripe/framework": "~3.1"
+            },
+            "type": "silverstripe-module",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GNU"
+            ],
+            "authors": [
+                {
+                    "name": "Uncle Cheese",
+                    "email": "unclecheese@leftandmain.com"
+                }
+            ],
+            "description": "Adds new form actions and buttons to GridField detail form for usability enhancements.",
+            "keywords": [
+                "buttons",
+                "gridfield",
+                "silverstripe"
+            ],
+            "time": "2017-01-20T08:51:05+00:00"
+        },
+        {
+            "name": "undefinedoffset/sortablegridfield",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/UndefinedOffset/SortableGridField.git",
+                "reference": "0571a60875673812733d9cb409473c0fa161f40f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/UndefinedOffset/SortableGridField/zipball/0571a60875673812733d9cb409473c0fa161f40f",
+                "reference": "0571a60875673812733d9cb409473c0fa161f40f",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "*",
+                "silverstripe/framework": ">=3.0.1 <4.0.0"
+            },
+            "type": "silverstripe-module",
+            "extra": {
+                "installer-name": "sortablegridfield"
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Ed Chipman",
+                    "homepage": "http://www.edchipman.ca",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Adds drag and drop functionality to SilverStripe 3.0's GridField",
+            "keywords": [
+                "gridfield",
+                "silverstripe"
+            ],
+            "time": "2017-10-27T19:14:27+00:00"
+        }
+    ],
+    "packages-dev": [
+        {
+            "name": "doctrine/instantiator",
+            "version": "1.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/doctrine/instantiator.git",
+                "reference": "185b8868aa9bf7159f5f953ed5afb2d7fcdc3bda"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/doctrine/instantiator/zipball/185b8868aa9bf7159f5f953ed5afb2d7fcdc3bda",
+                "reference": "185b8868aa9bf7159f5f953ed5afb2d7fcdc3bda",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.1"
+            },
+            "require-dev": {
+                "athletic/athletic": "~0.1.8",
+                "ext-pdo": "*",
+                "ext-phar": "*",
+                "phpunit/phpunit": "^6.2.3",
+                "squizlabs/php_codesniffer": "^3.0.2"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.2.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Doctrine\\Instantiator\\": "src/Doctrine/Instantiator/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Marco Pivetta",
+                    "email": "ocramius@gmail.com",
+                    "homepage": "http://ocramius.github.com/"
+                }
+            ],
+            "description": "A small, lightweight utility to instantiate objects in PHP without invoking their constructors",
+            "homepage": "https://github.com/doctrine/instantiator",
+            "keywords": [
+                "constructor",
+                "instantiate"
+            ],
+            "time": "2017-07-22T11:58:36+00:00"
+        },
+        {
+            "name": "myclabs/deep-copy",
+            "version": "1.8.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/myclabs/DeepCopy.git",
+                "reference": "3e01bdad3e18354c3dce54466b7fbe33a9f9f7f8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/myclabs/DeepCopy/zipball/3e01bdad3e18354c3dce54466b7fbe33a9f9f7f8",
+                "reference": "3e01bdad3e18354c3dce54466b7fbe33a9f9f7f8",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.1"
+            },
+            "replace": {
+                "myclabs/deep-copy": "self.version"
+            },
+            "require-dev": {
+                "doctrine/collections": "^1.0",
+                "doctrine/common": "^2.6",
+                "phpunit/phpunit": "^7.1"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "DeepCopy\\": "src/DeepCopy/"
+                },
+                "files": [
+                    "src/DeepCopy/deep_copy.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "Create deep copies (clones) of your objects",
+            "keywords": [
+                "clone",
+                "copy",
+                "duplicate",
+                "object",
+                "object graph"
+            ],
+            "time": "2018-06-11T23:09:50+00:00"
+        },
+        {
+            "name": "phpdocumentor/reflection-common",
+            "version": "1.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/phpDocumentor/ReflectionCommon.git",
+                "reference": "21bdeb5f65d7ebf9f43b1b25d404f87deab5bfb6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/phpDocumentor/ReflectionCommon/zipball/21bdeb5f65d7ebf9f43b1b25d404f87deab5bfb6",
+                "reference": "21bdeb5f65d7ebf9f43b1b25d404f87deab5bfb6",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.5"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^4.6"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "phpDocumentor\\Reflection\\": [
+                        "src"
+                    ]
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jaap van Otterdijk",
+                    "email": "opensource@ijaap.nl"
+                }
+            ],
+            "description": "Common reflection classes used by phpdocumentor to reflect the code structure",
+            "homepage": "http://www.phpdoc.org",
+            "keywords": [
+                "FQSEN",
+                "phpDocumentor",
+                "phpdoc",
+                "reflection",
+                "static analysis"
+            ],
+            "time": "2017-09-11T18:02:19+00:00"
+        },
+        {
+            "name": "phpdocumentor/reflection-docblock",
+            "version": "4.3.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/phpDocumentor/ReflectionDocBlock.git",
+                "reference": "94fd0001232e47129dd3504189fa1c7225010d08"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/phpDocumentor/ReflectionDocBlock/zipball/94fd0001232e47129dd3504189fa1c7225010d08",
+                "reference": "94fd0001232e47129dd3504189fa1c7225010d08",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.0",
+                "phpdocumentor/reflection-common": "^1.0.0",
+                "phpdocumentor/type-resolver": "^0.4.0",
+                "webmozart/assert": "^1.0"
+            },
+            "require-dev": {
+                "doctrine/instantiator": "~1.0.5",
+                "mockery/mockery": "^1.0",
+                "phpunit/phpunit": "^6.4"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "4.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "phpDocumentor\\Reflection\\": [
+                        "src/"
+                    ]
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Mike van Riel",
+                    "email": "me@mikevanriel.com"
+                }
+            ],
+            "description": "With this component, a library can provide support for annotations via DocBlocks or otherwise retrieve information that is embedded in a DocBlock.",
+            "time": "2017-11-30T07:14:17+00:00"
+        },
+        {
+            "name": "phpdocumentor/type-resolver",
+            "version": "0.4.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/phpDocumentor/TypeResolver.git",
+                "reference": "9c977708995954784726e25d0cd1dddf4e65b0f7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/phpDocumentor/TypeResolver/zipball/9c977708995954784726e25d0cd1dddf4e65b0f7",
+                "reference": "9c977708995954784726e25d0cd1dddf4e65b0f7",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^5.5 || ^7.0",
+                "phpdocumentor/reflection-common": "^1.0"
+            },
+            "require-dev": {
+                "mockery/mockery": "^0.9.4",
+                "phpunit/phpunit": "^5.2||^4.8.24"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "phpDocumentor\\Reflection\\": [
+                        "src/"
+                    ]
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Mike van Riel",
+                    "email": "me@mikevanriel.com"
+                }
+            ],
+            "time": "2017-07-14T14:27:02+00:00"
+        },
+        {
+            "name": "phpspec/prophecy",
+            "version": "1.8.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/phpspec/prophecy.git",
+                "reference": "4ba436b55987b4bf311cb7c6ba82aa528aac0a06"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/phpspec/prophecy/zipball/4ba436b55987b4bf311cb7c6ba82aa528aac0a06",
+                "reference": "4ba436b55987b4bf311cb7c6ba82aa528aac0a06",
+                "shasum": ""
+            },
+            "require": {
+                "doctrine/instantiator": "^1.0.2",
+                "php": "^5.3|^7.0",
+                "phpdocumentor/reflection-docblock": "^2.0|^3.0.2|^4.0",
+                "sebastian/comparator": "^1.1|^2.0|^3.0",
+                "sebastian/recursion-context": "^1.0|^2.0|^3.0"
+            },
+            "require-dev": {
+                "phpspec/phpspec": "^2.5|^3.2",
+                "phpunit/phpunit": "^4.8.35 || ^5.7 || ^6.5 || ^7.1"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.8.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Prophecy\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Konstantin Kudryashov",
+                    "email": "ever.zet@gmail.com",
+                    "homepage": "http://everzet.com"
+                },
+                {
+                    "name": "Marcello Duarte",
+                    "email": "marcello.duarte@gmail.com"
+                }
+            ],
+            "description": "Highly opinionated mocking framework for PHP 5.3+",
+            "homepage": "https://github.com/phpspec/prophecy",
+            "keywords": [
+                "Double",
+                "Dummy",
+                "fake",
+                "mock",
+                "spy",
+                "stub"
+            ],
+            "time": "2018-08-05T17:53:17+00:00"
+        },
+        {
+            "name": "phpunit/php-code-coverage",
+            "version": "4.0.8",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sebastianbergmann/php-code-coverage.git",
+                "reference": "ef7b2f56815df854e66ceaee8ebe9393ae36a40d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sebastianbergmann/php-code-coverage/zipball/ef7b2f56815df854e66ceaee8ebe9393ae36a40d",
+                "reference": "ef7b2f56815df854e66ceaee8ebe9393ae36a40d",
+                "shasum": ""
+            },
+            "require": {
+                "ext-dom": "*",
+                "ext-xmlwriter": "*",
+                "php": "^5.6 || ^7.0",
+                "phpunit/php-file-iterator": "^1.3",
+                "phpunit/php-text-template": "^1.2",
+                "phpunit/php-token-stream": "^1.4.2 || ^2.0",
+                "sebastian/code-unit-reverse-lookup": "^1.0",
+                "sebastian/environment": "^1.3.2 || ^2.0",
+                "sebastian/version": "^1.0 || ^2.0"
+            },
+            "require-dev": {
+                "ext-xdebug": "^2.1.4",
+                "phpunit/phpunit": "^5.7"
+            },
+            "suggest": {
+                "ext-xdebug": "^2.5.1"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "4.0.x-dev"
+                }
+            },
+            "autoload": {
+                "classmap": [
+                    "src/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Sebastian Bergmann",
+                    "email": "sb@sebastian-bergmann.de",
+                    "role": "lead"
+                }
+            ],
+            "description": "Library that provides collection, processing, and rendering functionality for PHP code coverage information.",
+            "homepage": "https://github.com/sebastianbergmann/php-code-coverage",
+            "keywords": [
+                "coverage",
+                "testing",
+                "xunit"
+            ],
+            "time": "2017-04-02T07:44:40+00:00"
+        },
+        {
+            "name": "phpunit/php-file-iterator",
+            "version": "1.4.5",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sebastianbergmann/php-file-iterator.git",
+                "reference": "730b01bc3e867237eaac355e06a36b85dd93a8b4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sebastianbergmann/php-file-iterator/zipball/730b01bc3e867237eaac355e06a36b85dd93a8b4",
+                "reference": "730b01bc3e867237eaac355e06a36b85dd93a8b4",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.3"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.4.x-dev"
+                }
+            },
+            "autoload": {
+                "classmap": [
+                    "src/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Sebastian Bergmann",
+                    "email": "sb@sebastian-bergmann.de",
+                    "role": "lead"
+                }
+            ],
+            "description": "FilterIterator implementation that filters files based on a list of suffixes.",
+            "homepage": "https://github.com/sebastianbergmann/php-file-iterator/",
+            "keywords": [
+                "filesystem",
+                "iterator"
+            ],
+            "time": "2017-11-27T13:52:08+00:00"
+        },
+        {
+            "name": "phpunit/php-text-template",
+            "version": "1.2.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sebastianbergmann/php-text-template.git",
+                "reference": "31f8b717e51d9a2afca6c9f046f5d69fc27c8686"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sebastianbergmann/php-text-template/zipball/31f8b717e51d9a2afca6c9f046f5d69fc27c8686",
+                "reference": "31f8b717e51d9a2afca6c9f046f5d69fc27c8686",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.3"
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "src/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Sebastian Bergmann",
+                    "email": "sebastian@phpunit.de",
+                    "role": "lead"
+                }
+            ],
+            "description": "Simple template engine.",
+            "homepage": "https://github.com/sebastianbergmann/php-text-template/",
+            "keywords": [
+                "template"
+            ],
+            "time": "2015-06-21T13:50:34+00:00"
+        },
+        {
+            "name": "phpunit/php-timer",
+            "version": "1.0.9",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sebastianbergmann/php-timer.git",
+                "reference": "3dcf38ca72b158baf0bc245e9184d3fdffa9c46f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sebastianbergmann/php-timer/zipball/3dcf38ca72b158baf0bc245e9184d3fdffa9c46f",
+                "reference": "3dcf38ca72b158baf0bc245e9184d3fdffa9c46f",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^5.3.3 || ^7.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^4.8.35 || ^5.7 || ^6.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0-dev"
+                }
+            },
+            "autoload": {
+                "classmap": [
+                    "src/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Sebastian Bergmann",
+                    "email": "sb@sebastian-bergmann.de",
+                    "role": "lead"
+                }
+            ],
+            "description": "Utility class for timing",
+            "homepage": "https://github.com/sebastianbergmann/php-timer/",
+            "keywords": [
+                "timer"
+            ],
+            "time": "2017-02-26T11:10:40+00:00"
+        },
+        {
+            "name": "phpunit/php-token-stream",
+            "version": "2.0.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sebastianbergmann/php-token-stream.git",
+                "reference": "791198a2c6254db10131eecfe8c06670700904db"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sebastianbergmann/php-token-stream/zipball/791198a2c6254db10131eecfe8c06670700904db",
+                "reference": "791198a2c6254db10131eecfe8c06670700904db",
+                "shasum": ""
+            },
+            "require": {
+                "ext-tokenizer": "*",
+                "php": "^7.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^6.2.4"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.0-dev"
+                }
+            },
+            "autoload": {
+                "classmap": [
+                    "src/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Sebastian Bergmann",
+                    "email": "sebastian@phpunit.de"
+                }
+            ],
+            "description": "Wrapper around PHP's tokenizer extension.",
+            "homepage": "https://github.com/sebastianbergmann/php-token-stream/",
+            "keywords": [
+                "tokenizer"
+            ],
+            "time": "2017-11-27T05:48:46+00:00"
+        },
+        {
+            "name": "phpunit/phpunit",
+            "version": "5.7.27",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sebastianbergmann/phpunit.git",
+                "reference": "b7803aeca3ccb99ad0a506fa80b64cd6a56bbc0c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/b7803aeca3ccb99ad0a506fa80b64cd6a56bbc0c",
+                "reference": "b7803aeca3ccb99ad0a506fa80b64cd6a56bbc0c",
+                "shasum": ""
+            },
+            "require": {
+                "ext-dom": "*",
+                "ext-json": "*",
+                "ext-libxml": "*",
+                "ext-mbstring": "*",
+                "ext-xml": "*",
+                "myclabs/deep-copy": "~1.3",
+                "php": "^5.6 || ^7.0",
+                "phpspec/prophecy": "^1.6.2",
+                "phpunit/php-code-coverage": "^4.0.4",
+                "phpunit/php-file-iterator": "~1.4",
+                "phpunit/php-text-template": "~1.2",
+                "phpunit/php-timer": "^1.0.6",
+                "phpunit/phpunit-mock-objects": "^3.2",
+                "sebastian/comparator": "^1.2.4",
+                "sebastian/diff": "^1.4.3",
+                "sebastian/environment": "^1.3.4 || ^2.0",
+                "sebastian/exporter": "~2.0",
+                "sebastian/global-state": "^1.1",
+                "sebastian/object-enumerator": "~2.0",
+                "sebastian/resource-operations": "~1.0",
+                "sebastian/version": "^1.0.6|^2.0.1",
+                "symfony/yaml": "~2.1|~3.0|~4.0"
+            },
+            "conflict": {
+                "phpdocumentor/reflection-docblock": "3.0.2"
+            },
+            "require-dev": {
+                "ext-pdo": "*"
+            },
+            "suggest": {
+                "ext-xdebug": "*",
+                "phpunit/php-invoker": "~1.1"
+            },
+            "bin": [
+                "phpunit"
+            ],
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "5.7.x-dev"
+                }
+            },
+            "autoload": {
+                "classmap": [
+                    "src/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Sebastian Bergmann",
+                    "email": "sebastian@phpunit.de",
+                    "role": "lead"
+                }
+            ],
+            "description": "The PHP Unit Testing framework.",
+            "homepage": "https://phpunit.de/",
+            "keywords": [
+                "phpunit",
+                "testing",
+                "xunit"
+            ],
+            "time": "2018-02-01T05:50:59+00:00"
+        },
+        {
+            "name": "phpunit/phpunit-mock-objects",
+            "version": "3.4.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sebastianbergmann/phpunit-mock-objects.git",
+                "reference": "a23b761686d50a560cc56233b9ecf49597cc9118"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sebastianbergmann/phpunit-mock-objects/zipball/a23b761686d50a560cc56233b9ecf49597cc9118",
+                "reference": "a23b761686d50a560cc56233b9ecf49597cc9118",
+                "shasum": ""
+            },
+            "require": {
+                "doctrine/instantiator": "^1.0.2",
+                "php": "^5.6 || ^7.0",
+                "phpunit/php-text-template": "^1.2",
+                "sebastian/exporter": "^1.2 || ^2.0"
+            },
+            "conflict": {
+                "phpunit/phpunit": "<5.4.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^5.4"
+            },
+            "suggest": {
+                "ext-soap": "*"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "3.2.x-dev"
+                }
+            },
+            "autoload": {
+                "classmap": [
+                    "src/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Sebastian Bergmann",
+                    "email": "sb@sebastian-bergmann.de",
+                    "role": "lead"
+                }
+            ],
+            "description": "Mock Object library for PHPUnit",
+            "homepage": "https://github.com/sebastianbergmann/phpunit-mock-objects/",
+            "keywords": [
+                "mock",
+                "xunit"
+            ],
+            "time": "2017-06-30T09:13:00+00:00"
+        },
+        {
+            "name": "sebastian/code-unit-reverse-lookup",
+            "version": "1.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sebastianbergmann/code-unit-reverse-lookup.git",
+                "reference": "4419fcdb5eabb9caa61a27c7a1db532a6b55dd18"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sebastianbergmann/code-unit-reverse-lookup/zipball/4419fcdb5eabb9caa61a27c7a1db532a6b55dd18",
+                "reference": "4419fcdb5eabb9caa61a27c7a1db532a6b55dd18",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^5.6 || ^7.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^5.7 || ^6.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "classmap": [
+                    "src/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Sebastian Bergmann",
+                    "email": "sebastian@phpunit.de"
+                }
+            ],
+            "description": "Looks up which function or method a line of code belongs to",
+            "homepage": "https://github.com/sebastianbergmann/code-unit-reverse-lookup/",
+            "time": "2017-03-04T06:30:41+00:00"
+        },
+        {
+            "name": "sebastian/comparator",
+            "version": "1.2.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sebastianbergmann/comparator.git",
+                "reference": "2b7424b55f5047b47ac6e5ccb20b2aea4011d9be"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sebastianbergmann/comparator/zipball/2b7424b55f5047b47ac6e5ccb20b2aea4011d9be",
+                "reference": "2b7424b55f5047b47ac6e5ccb20b2aea4011d9be",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.3",
+                "sebastian/diff": "~1.2",
+                "sebastian/exporter": "~1.2 || ~2.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~4.4"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.2.x-dev"
+                }
+            },
+            "autoload": {
+                "classmap": [
+                    "src/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Jeff Welch",
+                    "email": "whatthejeff@gmail.com"
+                },
+                {
+                    "name": "Volker Dusch",
+                    "email": "github@wallbash.com"
+                },
+                {
+                    "name": "Bernhard Schussek",
+                    "email": "bschussek@2bepublished.at"
+                },
+                {
+                    "name": "Sebastian Bergmann",
+                    "email": "sebastian@phpunit.de"
+                }
+            ],
+            "description": "Provides the functionality to compare PHP values for equality",
+            "homepage": "http://www.github.com/sebastianbergmann/comparator",
+            "keywords": [
+                "comparator",
+                "compare",
+                "equality"
+            ],
+            "time": "2017-01-29T09:50:25+00:00"
+        },
+        {
+            "name": "sebastian/diff",
+            "version": "1.4.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sebastianbergmann/diff.git",
+                "reference": "7f066a26a962dbe58ddea9f72a4e82874a3975a4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sebastianbergmann/diff/zipball/7f066a26a962dbe58ddea9f72a4e82874a3975a4",
+                "reference": "7f066a26a962dbe58ddea9f72a4e82874a3975a4",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^5.3.3 || ^7.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^4.8.35 || ^5.7 || ^6.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.4-dev"
+                }
+            },
+            "autoload": {
+                "classmap": [
+                    "src/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Kore Nordmann",
+                    "email": "mail@kore-nordmann.de"
+                },
+                {
+                    "name": "Sebastian Bergmann",
+                    "email": "sebastian@phpunit.de"
+                }
+            ],
+            "description": "Diff implementation",
+            "homepage": "https://github.com/sebastianbergmann/diff",
+            "keywords": [
+                "diff"
+            ],
+            "time": "2017-05-22T07:24:03+00:00"
+        },
+        {
+            "name": "sebastian/environment",
+            "version": "2.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sebastianbergmann/environment.git",
+                "reference": "5795ffe5dc5b02460c3e34222fee8cbe245d8fac"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sebastianbergmann/environment/zipball/5795ffe5dc5b02460c3e34222fee8cbe245d8fac",
+                "reference": "5795ffe5dc5b02460c3e34222fee8cbe245d8fac",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^5.6 || ^7.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^5.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.0.x-dev"
+                }
+            },
+            "autoload": {
+                "classmap": [
+                    "src/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Sebastian Bergmann",
+                    "email": "sebastian@phpunit.de"
+                }
+            ],
+            "description": "Provides functionality to handle HHVM/PHP environments",
+            "homepage": "http://www.github.com/sebastianbergmann/environment",
+            "keywords": [
+                "Xdebug",
+                "environment",
+                "hhvm"
+            ],
+            "time": "2016-11-26T07:53:53+00:00"
+        },
+        {
+            "name": "sebastian/exporter",
+            "version": "2.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sebastianbergmann/exporter.git",
+                "reference": "ce474bdd1a34744d7ac5d6aad3a46d48d9bac4c4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sebastianbergmann/exporter/zipball/ce474bdd1a34744d7ac5d6aad3a46d48d9bac4c4",
+                "reference": "ce474bdd1a34744d7ac5d6aad3a46d48d9bac4c4",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.3",
+                "sebastian/recursion-context": "~2.0"
+            },
+            "require-dev": {
+                "ext-mbstring": "*",
+                "phpunit/phpunit": "~4.4"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.0.x-dev"
+                }
+            },
+            "autoload": {
+                "classmap": [
+                    "src/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Jeff Welch",
+                    "email": "whatthejeff@gmail.com"
+                },
+                {
+                    "name": "Volker Dusch",
+                    "email": "github@wallbash.com"
+                },
+                {
+                    "name": "Bernhard Schussek",
+                    "email": "bschussek@2bepublished.at"
+                },
+                {
+                    "name": "Sebastian Bergmann",
+                    "email": "sebastian@phpunit.de"
+                },
+                {
+                    "name": "Adam Harvey",
+                    "email": "aharvey@php.net"
+                }
+            ],
+            "description": "Provides the functionality to export PHP variables for visualization",
+            "homepage": "http://www.github.com/sebastianbergmann/exporter",
+            "keywords": [
+                "export",
+                "exporter"
+            ],
+            "time": "2016-11-19T08:54:04+00:00"
+        },
+        {
+            "name": "sebastian/global-state",
+            "version": "1.1.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sebastianbergmann/global-state.git",
+                "reference": "bc37d50fea7d017d3d340f230811c9f1d7280af4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sebastianbergmann/global-state/zipball/bc37d50fea7d017d3d340f230811c9f1d7280af4",
+                "reference": "bc37d50fea7d017d3d340f230811c9f1d7280af4",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.3"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~4.2"
+            },
+            "suggest": {
+                "ext-uopz": "*"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0-dev"
+                }
+            },
+            "autoload": {
+                "classmap": [
+                    "src/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Sebastian Bergmann",
+                    "email": "sebastian@phpunit.de"
+                }
+            ],
+            "description": "Snapshotting of global state",
+            "homepage": "http://www.github.com/sebastianbergmann/global-state",
+            "keywords": [
+                "global state"
+            ],
+            "time": "2015-10-12T03:26:01+00:00"
+        },
+        {
+            "name": "sebastian/object-enumerator",
+            "version": "2.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sebastianbergmann/object-enumerator.git",
+                "reference": "1311872ac850040a79c3c058bea3e22d0f09cbb7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sebastianbergmann/object-enumerator/zipball/1311872ac850040a79c3c058bea3e22d0f09cbb7",
+                "reference": "1311872ac850040a79c3c058bea3e22d0f09cbb7",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.6",
+                "sebastian/recursion-context": "~2.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~5"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.0.x-dev"
+                }
+            },
+            "autoload": {
+                "classmap": [
+                    "src/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Sebastian Bergmann",
+                    "email": "sebastian@phpunit.de"
+                }
+            ],
+            "description": "Traverses array structures and object graphs to enumerate all referenced objects",
+            "homepage": "https://github.com/sebastianbergmann/object-enumerator/",
+            "time": "2017-02-18T15:18:39+00:00"
+        },
+        {
+            "name": "sebastian/recursion-context",
+            "version": "2.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sebastianbergmann/recursion-context.git",
+                "reference": "2c3ba150cbec723aa057506e73a8d33bdb286c9a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sebastianbergmann/recursion-context/zipball/2c3ba150cbec723aa057506e73a8d33bdb286c9a",
+                "reference": "2c3ba150cbec723aa057506e73a8d33bdb286c9a",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.3"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~4.4"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.0.x-dev"
+                }
+            },
+            "autoload": {
+                "classmap": [
+                    "src/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Jeff Welch",
+                    "email": "whatthejeff@gmail.com"
+                },
+                {
+                    "name": "Sebastian Bergmann",
+                    "email": "sebastian@phpunit.de"
+                },
+                {
+                    "name": "Adam Harvey",
+                    "email": "aharvey@php.net"
+                }
+            ],
+            "description": "Provides functionality to recursively process PHP variables",
+            "homepage": "http://www.github.com/sebastianbergmann/recursion-context",
+            "time": "2016-11-19T07:33:16+00:00"
+        },
+        {
+            "name": "sebastian/resource-operations",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sebastianbergmann/resource-operations.git",
+                "reference": "ce990bb21759f94aeafd30209e8cfcdfa8bc3f52"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sebastianbergmann/resource-operations/zipball/ce990bb21759f94aeafd30209e8cfcdfa8bc3f52",
+                "reference": "ce990bb21759f94aeafd30209e8cfcdfa8bc3f52",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.6.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "classmap": [
+                    "src/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Sebastian Bergmann",
+                    "email": "sebastian@phpunit.de"
+                }
+            ],
+            "description": "Provides a list of PHP built-in functions that operate on resources",
+            "homepage": "https://www.github.com/sebastianbergmann/resource-operations",
+            "time": "2015-07-28T20:34:47+00:00"
+        },
+        {
+            "name": "sebastian/version",
+            "version": "2.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sebastianbergmann/version.git",
+                "reference": "99732be0ddb3361e16ad77b68ba41efc8e979019"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sebastianbergmann/version/zipball/99732be0ddb3361e16ad77b68ba41efc8e979019",
+                "reference": "99732be0ddb3361e16ad77b68ba41efc8e979019",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.6"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.0.x-dev"
+                }
+            },
+            "autoload": {
+                "classmap": [
+                    "src/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Sebastian Bergmann",
+                    "email": "sebastian@phpunit.de",
+                    "role": "lead"
+                }
+            ],
+            "description": "Library that helps with managing the version number of Git-hosted PHP projects",
+            "homepage": "https://github.com/sebastianbergmann/version",
+            "time": "2016-10-03T07:35:21+00:00"
+        },
+        {
+            "name": "symfony/polyfill-ctype",
+            "version": "v1.10.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/polyfill-ctype.git",
+                "reference": "e3d826245268269cd66f8326bd8bc066687b4a19"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/polyfill-ctype/zipball/e3d826245268269cd66f8326bd8bc066687b4a19",
+                "reference": "e3d826245268269cd66f8326bd8bc066687b4a19",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.3"
+            },
+            "suggest": {
+                "ext-ctype": "For best performance"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.9-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Symfony\\Polyfill\\Ctype\\": ""
+                },
+                "files": [
+                    "bootstrap.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                },
+                {
+                    "name": "Gert de Pagter",
+                    "email": "BackEndTea@gmail.com"
+                }
+            ],
+            "description": "Symfony polyfill for ctype functions",
+            "homepage": "https://symfony.com",
+            "keywords": [
+                "compatibility",
+                "ctype",
+                "polyfill",
+                "portable"
+            ],
+            "time": "2018-08-06T14:22:27+00:00"
+        },
+        {
+            "name": "symfony/yaml",
+            "version": "v4.1.7",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/yaml.git",
+                "reference": "367e689b2fdc19965be435337b50bc8adf2746c9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/yaml/zipball/367e689b2fdc19965be435337b50bc8adf2746c9",
+                "reference": "367e689b2fdc19965be435337b50bc8adf2746c9",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.1.3",
+                "symfony/polyfill-ctype": "~1.8"
+            },
+            "conflict": {
+                "symfony/console": "<3.4"
+            },
+            "require-dev": {
+                "symfony/console": "~3.4|~4.0"
+            },
+            "suggest": {
+                "symfony/console": "For validating YAML files using the lint command"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "4.1-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Symfony\\Component\\Yaml\\": ""
+                },
+                "exclude-from-classmap": [
+                    "/Tests/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "Symfony Yaml Component",
+            "homepage": "https://symfony.com",
+            "time": "2018-10-02T16:36:10+00:00"
+        },
+        {
+            "name": "webmozart/assert",
+            "version": "1.3.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/webmozart/assert.git",
+                "reference": "0df1908962e7a3071564e857d86874dad1ef204a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/webmozart/assert/zipball/0df1908962e7a3071564e857d86874dad1ef204a",
+                "reference": "0df1908962e7a3071564e857d86874dad1ef204a",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^5.3.3 || ^7.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^4.6",
+                "sebastian/version": "^1.0.1"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.3-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Webmozart\\Assert\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Bernhard Schussek",
+                    "email": "bschussek@gmail.com"
+                }
+            ],
+            "description": "Assertions to validate method input/output with nice error messages.",
+            "keywords": [
+                "assert",
+                "check",
+                "validate"
+            ],
+            "time": "2018-01-29T19:49:41+00:00"
+        }
+    ],
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": {
+        "burnbright/silverstripe-externalurlfield": 0,
+        "bummzack/sortablefile": 20,
+        "silverstripe/userforms": 20,
+        "silverstripe/blog": 20,
+        "silverstripe/secureassets": 20,
+        "briceburg/silverstripe-pickerfield": 20
+    },
+    "prefer-stable": true,
+    "prefer-lowest": false,
+    "platform": {
+        "php": ">=5.3.3"
+    },
+    "platform-dev": []
+}

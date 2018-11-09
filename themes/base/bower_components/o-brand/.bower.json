@@ -1,0 +1,23 @@
+{
+  "name": "o-brand",
+  "main": "main.scss",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "build",
+    "circle.yaml"
+  ],
+  "homepage": "https://github.com/Financial-Times/o-brand",
+  "version": "3.1.1",
+  "_release": "3.1.1",
+  "_resolution": {
+    "type": "version",
+    "tag": "v3.1.1",
+    "commit": "9b375a69889ca271dc5b8109f5f1d5731aeb3c33"
+  },
+  "_source": "https://github.com/Financial-Times/o-brand.git",
+  "_target": ">=2.3.0 <4",
+  "_originalSource": "o-brand"
+}

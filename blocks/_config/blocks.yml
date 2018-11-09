@@ -1,0 +1,22 @@
+---
+Name: 'blocks'
+After:
+  - 'framework/*'
+  - 'cms/*'
+---
+SiteTree:
+  extensions:
+    - BlocksSiteTreeExtension
+ContentController:
+  extensions:
+    - BlocksContentControllerExtension
+  url_handlers:
+    'block/$ID!': 'handleBlock'
+SiteConfig:
+  extensions:
+    - BlockSiteConfigExtension
+
+Block:
+  extensions:
+    - Versioned('Stage','Live')
+
