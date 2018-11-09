@@ -9,6 +9,7 @@ class BrandStoryPage extends Page {
 
     private static $db = [
         "EnableHeroImage" => "Boolean",
+        "IsPaidPost" => "Boolean",
         "SortOrder" => "Int",
         "StoryDate" => "Date",
     ];
@@ -36,6 +37,12 @@ class BrandStoryPage extends Page {
             $title = "Enable Hero banner on Brand Story?",
             $source = array( "0" => "Show", "1" => "Hide"),
             $value = "0" ));
+
+        $fields->addFieldToTab('Root.HeroImage',new OptionsetField(
+            $name = "IsPaidPost",
+            $title = "Is this a Paid Post??",
+            $source = array( "0" => "No", "1" => "Yes"),
+            $value = "1" ));
 
 
         return $fields;
