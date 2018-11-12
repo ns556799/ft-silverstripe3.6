@@ -12,6 +12,7 @@ class BrandStoryPage extends Page {
         "IsPaidPost" => "Boolean",
         "SortOrder" => "Int",
         "StoryDate" => "Date",
+        "Disclaimer" => "HTMLText",
     ];
 
     private static $has_one = [
@@ -28,6 +29,7 @@ class BrandStoryPage extends Page {
         $fields->addFieldToTab('Root.HeroImage', new UploadField('ArticleImage', 'Article Image'));
 
         $fields->addFieldToTab('Root.Main', $fldContent = new HtmlEditorField('Content'));
+        $fields->addFieldToTab('Root.Dislaimer', $fldDisclaimer = new HtmlEditorField('Disclaimer'));
 
 
         $fields->addFieldToTab('Root.HeroImage',new OptionsetField(

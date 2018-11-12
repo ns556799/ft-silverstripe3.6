@@ -17,7 +17,7 @@ class ClientPage extends Page
     public function getCMSFields()
     {
         $fields = parent::getCMSFields();
-        $fields->removeByName(['Content']);
+        $fields->removeByName(['Content', 'Blocks']);
 
         $fields->addFieldToTab('Root.Main', $fldClientsLink = new TextField('ClientLink', 'Clients External Link'));
         $fldClientsLink->setRightTitle('Enter the clients URL using the http:// format');
