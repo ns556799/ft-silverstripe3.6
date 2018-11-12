@@ -29,6 +29,9 @@ if (document.querySelector('.js-video-block')) {
 if (document.querySelector('header')) {
    import(/* webpackChunkName: "headerScroll" */ 'module/header')
 }
+if (document.querySelector('.disclosure')) {
+   import(/* webpackChunkName: "disclosureReveal" */ 'module/disclosure')
+}
 
 // =blocks
 // if (document.querySelector('.m-blockname')) {
