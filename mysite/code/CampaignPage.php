@@ -5,7 +5,7 @@ class CampaignPage extends Page
     static $singular_name = 'Campaign Page';
     static $plural_name = 'Campaign Page';
     static $description = 'Use this page to create a Campaign';
-    static $icon = "themes/tutorial/images/treeicons/news";
+    static $icon = "mysite/images/icons/campaign.gif";
     static $defaults = array('ProvideComments' => true);
 
     private static $db = [

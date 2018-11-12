@@ -4,7 +4,7 @@ class BrandStoryPage extends Page {
     static $singular_name = 'Brand Story Page';
     static $plural_name = 'Brand Story Pages';
     static $description = 'Use this page to create a Brand Story';
-    static $icon = "mysite/images/icons/about-file.gif";
+    static $icon = "mysite/images/icons/project.gif";
     static $defaults = array('ProvideComments' => true);
 
     private static $db = [

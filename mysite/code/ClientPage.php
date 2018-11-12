@@ -2,6 +2,12 @@
 
 class ClientPage extends Page
 {
+    static $singular_name = 'Client Page';
+    static $plural_name = 'Client Page';
+    static $description = 'Use this page to create a Client page';
+    static $icon = "mysite/images/icons/client.gif";
+    static $defaults = array('ProvideComments' => true);
+
     private static $db = [
         'ClientLink' => 'HTMLText'
     ];
