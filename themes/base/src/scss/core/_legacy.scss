@@ -53,7 +53,6 @@ h3 {
 .article-date-container {
   border-bottom: solid 1px #CDCDCD;
   padding: 0 0px 1em 0px;
-  margin-bottom: 2em;
 }
 
 p, li {
@@ -226,7 +225,13 @@ button:focus {
 }
 
 .second-share {
-  margin-left: 0;
+  display: block;
+  margin-left: 16px !important;
+
+  @include mq($m) {
+    display: none;
+  }
+
 }
 
 .second-share .social-mob {
@@ -536,6 +541,9 @@ a.tile-cta:hover {
 /**
 *	Quotes
 **/
+.blockquote-container {
+  margin-bottom: 30px;
+}
 
 blockquote {
   position: relative;
@@ -1217,14 +1225,12 @@ Carousel Related content
   font-size: 95%;
 }
 
-
 .sponsor-image {
   background-size: cover;
   height: auto;
   min-height: 30em;
   display: block;
 }
-
 
 .cta-sponsor {
   transition: background-color 0.5s ease;
@@ -1248,7 +1254,6 @@ Carousel Related content
 
 @media (max-width: 740px) {
 
-
   h1 {
     width: 100% !important;
   }
@@ -1256,7 +1261,6 @@ Carousel Related content
   .cta-sponsor {
     margin-bottom: 30px;
   }
-
 
 }
 
@@ -1266,7 +1270,6 @@ Carousel Related content
     max-height: 300px !important;
   }
 }
-
 
 .disclaimer__box {
   position: absolute;
@@ -1290,6 +1293,7 @@ Carousel Related content
   padding: 0.2em 0.6em;
   vertical-align: -1px;
 }
+
 .disclaimer__sponsor {
   font-weight: 600;
 }

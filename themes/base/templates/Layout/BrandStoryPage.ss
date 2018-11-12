@@ -11,7 +11,7 @@
        style="display: none; top: -1.30469px; left: 205.188px; opacity: 0;">
     <div class="o-tooltip-content">
       <p>This content was produced by the advertising department of the Financial Times, in collaboration with <span
-        class="paid-post-tooltip__sponsor">RoFx</span></p>
+        class="paid-post-tooltip__sponsor">$GetParentContext.Title</span></p>
     </div>
     <button class="o-tooltip-close" aria-label="Close tooltip" title="Close tooltip"></button>
   </div>
@@ -33,10 +33,16 @@
          class="topper topper-content"
       <% end_if %> >
       $Content
-      <div class="article-date-container "><span class="p-date"> date goes here</span></div>
+      <% if $StoryDate %>
+        <div class="article-date-container">
+          <span class="p-date"> $getDateString </span>
+      </div>
+        <% end_if %>
     </div>
 
     $BlockArea(AfterContent)
+    <% include SocialShareMobile %>
+    $BlockArea(AfterSocialMobile)
     <div data-o-grid-colspan="M6 S6" class="left">
       <a class="cta cta--fill cta-sponsor" href="$GetParentContext.ClientLink">
         Find out more on $GetParentContext.Title

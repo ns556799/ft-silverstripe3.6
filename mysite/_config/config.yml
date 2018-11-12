@@ -14,6 +14,7 @@ BlockManager:
     base:
       areas:
         AfterContent: true
+        AfterSocialMobile: true
       use_blocksets: true
       use_extra_css_classes: true
   use_default_blocks: true
@@ -21,7 +22,7 @@ Debug:
   friendly_error_httpcode: true
 BetterNavigator:
   developers:
-  - 'webmaster@7dots.co.uk'
+  - 'niv.suresh@ft.com'
 LeftAndMain:
   extra_requirements_javascript:
     mysite/javascript/cms.js:

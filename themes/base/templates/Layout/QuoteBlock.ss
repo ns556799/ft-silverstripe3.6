@@ -1,4 +1,4 @@
-<div class="">
+<div class="blockquote-container">
   <blockquote class="inset inset--text-right inset--left $QuoteAlign">
     <p>
       $Quote

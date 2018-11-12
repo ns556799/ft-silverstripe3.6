@@ -1,6 +1,6 @@
 <?php
 
-class HeroBannerBlock extends Block
+class DisclaimerBlock extends Block
 {
     static $singular_name = 'Disclaimer Block';
     static $plural_name = 'Disclaimer Blocks';
