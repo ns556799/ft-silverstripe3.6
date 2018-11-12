@@ -929,6 +929,9 @@ Carousel Related content
 
 .disclosure p {
   padding-bottom: 1em;
+  font-size: 0.75rem;
+  line-height: 1rem;
+
 }
 
 .disclosure-toggle {
@@ -1246,6 +1249,10 @@ Carousel Related content
   text-decoration: none;
   border: solid 1px #00884a;
   margin-bottom: 60px;
+
+  &:hover, &active, &:focus {
+    color: #00884a;
+  }
 }
 
 .cta-sponsor:hover {

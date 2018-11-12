@@ -39,6 +39,7 @@
       </div>
         <% end_if %>
     </div>
+    <% include SocialShareMobile %>
 
     $BlockArea(AfterContent)
     <% include SocialShareMobile %>
