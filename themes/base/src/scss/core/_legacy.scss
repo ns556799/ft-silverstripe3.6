@@ -1363,3 +1363,17 @@ Carousel Related content
   max-width: 320px;
   transition: transform 0.5s ease-in;
 }
+
+
+.content-image-block {
+  .inset {
+    margin-top: 0.5em;
+  }
+  &.-align-left {
+    .inset {
+      float: left;
+      margin-left: 0;
+      margin-right: 1em;
+    }
+  }
+}
