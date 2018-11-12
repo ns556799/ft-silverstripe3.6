@@ -939,6 +939,11 @@ Carousel Related content
   color: #00884a;
   font-size: 1em;
   margin: 1rem 0;
+
+  &:hover, &:active, &:focus {
+    background-color: #ebebeb;
+    color: #00884a;
+  }
 }
 
 .disclosure-toggle:hover {

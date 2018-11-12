@@ -1,5 +1,9 @@
 .article-swiper-container{
-  margin: 15px 0;
+  margin-bottom: 30px;
+
+  @include mq($m) {
+    margin-bottom: 60px;
+  }
 
   .swiper-pagination-bullet {
 

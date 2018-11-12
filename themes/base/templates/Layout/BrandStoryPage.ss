@@ -48,6 +48,10 @@
         Find out more on $GetParentContext.Title
       </a>
     </div>
+
+    <% if $Disclaimer %>
+      <% include Disclaimer %>
+    <% end_if %>
   </div>
 
 </main>
